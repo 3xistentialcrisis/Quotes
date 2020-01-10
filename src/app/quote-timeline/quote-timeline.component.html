@@ -1,1 +1,5 @@
-<p>quote-timeline works!</p>
+<p> {{ quote.quoteText + ' - ' +  quote.quoteAuthor }} </p>
+
+<p>This quote was created {{ quote.dateCreated|dateCount }} days ago</p>
+
+<button (click)="quoteDelete(true)">Delete Quote</button>
