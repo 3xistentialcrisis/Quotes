@@ -9,16 +9,16 @@ import { Quote } from '../quote';
 export class QuoteComponent implements OnInit {
 
   quotes: Quote[] = [
-    new Quote(1, 'Freedom', 'Its always to early to quit', 'Norman Vincent Peale', 0, 0, new Date(2000, 1, 1)),
-    new Quote(2, 'Silly', 'Nitwit, Blubber, Odmeant and Tweak', 'Albus Dumbledore', 0, 0, new Date(2001, 1, 1)),
-    new Quote(3, 'Improvement', 'What you do today can  improve your tommorrow', 'Ralph Marston', 0, 0, new Date(2002, 1, 1)),
-    new Quote(4, 'Goals', 'Set your goals high and dont stop unitl you get  there', 'Bo Jackson', 0, 0, new Date(2003, 1, 1)),
-    new Quote(5, 'Success', 'Success consists  of going from failure to failure without loss of enthusiasm', 'Winston Churchill', 0, 0, new Date(2004, 1, 1)),
-    new Quote(6, 'Perserverence', 'Perserverence is failing 19 times and succeeding the 20th', 'Julie Andrews', 0, 0, new Date(2005, 1, 1)),
-    new Quote(7, 'Wake Up', 'Wake up Wake up, better get this bread better get this cake up', 'Jhene Aiko', 0, 0, new Date(2006, 1, 1)),
-    new Quote(8, 'Motivation', 'Imma break you off let me be your motivation', 'Normani', 0, 0, new Date(2007, 1, 1)),
-    new Quote(9, 'Clout', 'They do anything for clout', 'Cardi B and Offset', 0, 0, new Date(2008, 1, 1)),
-    new Quote(10, 'Cartier', 'Bartier Cardi in the rarri diamonds all over my body','Cardi B', 0, 0, new Date(2018, 1, 1))
+    new Quote(1, 'Freedom', 'Its always to early to quit', 'Norman Vincent Peale', 'Ciku', 0, 0, new Date(2000, 1, 1)),
+    new Quote(2, 'Silly', 'Nitwit, Blubber, Odmeant and Tweak', 'Albus Dumbledore','Ciku', 0, 0, new Date(2001, 1, 1)),
+    new Quote(3, 'Improvement', 'What you do today can  improve your tommorrow', 'Ralph Marston','Ciku', 0, 0, new Date(2002, 1, 1)),
+    new Quote(4, 'Goals', 'Set your goals high and dont stop unitl you get  there', 'Bo Jackson','Ciku', 0, 0, new Date(2003, 1, 1)),
+    new Quote(5, 'Success', 'Success consists  of going from failure to failure without loss of enthusiasm', 'Winston Churchill','Ciku', 0, 0, new Date(2004, 1, 1)),
+    new Quote(6, 'Perserverence', 'Perserverence is failing 19 times and succeeding the 20th', 'Julie Andrews','Ciku', 0, 0, new Date(2005, 1, 1)),
+    new Quote(7, 'Wake Up', 'Wake up Wake up, better get this bread better get this cake up', 'Jhene Aiko','Ciku', 0, 0, new Date(2006, 1, 1)),
+    new Quote(8, 'Motivation', 'Imma break you off let me be your motivation', 'Normani','Ciku', 0, 0, new Date(2007, 1, 1)),
+    new Quote(9, 'Clout', 'They do anything for clout', 'Cardi B and Offset','Ciku', 0, 0, new Date(2008, 1, 1)),
+    new Quote(10, 'Cartier', 'Bartier Cardi in the rarri diamonds all over my body','Cardi B','Ciku', 0, 0, new Date(2018, 1, 1))
   ];
 
   toggleDetails(index) {
