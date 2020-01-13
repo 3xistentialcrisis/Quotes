@@ -1,10 +1,18 @@
-import { Directive } from '@angular/core';
+import { Directive, Input, ElementRef, HostListener } from '@angular/core';
+import { Quote } from './quote';
 
 @Directive({
   selector: '[appBestquote]'
 })
 export class BestquoteDirective {
 
-  constructor() { }
+  @Input() quotes: Quote[];
+
+  constructor(private elem: ElementRef) {
+
+    this.elem.nativeElement.style.backgroundColor = 'blue';
+
+  }
 
 }
+

@@ -7,6 +7,8 @@ import { QuoteFormComponent } from './quote-form/quote-form.component';
 import { QuoteComponent } from './quote/quote.component';
 import { QuoteVotingComponent } from './quote-voting/quote-voting.component';
 import { QuoteTimelineComponent } from './quote-timeline/quote-timeline.component';
+import { BestquoteDirective } from './bestquote.directive';
+import { DateCountPipe } from './date-count.pipe';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,7 @@ import { QuoteTimelineComponent } from './quote-timeline/quote-timeline.componen
     QuoteFormComponent,
     QuoteComponent,
     QuoteVotingComponent,
-    QuoteTimelineComponent
+    QuoteTimelineComponent,
     BestquoteDirective,
     DateCountPipe
   ],
@@ -26,3 +28,4 @@ import { QuoteTimelineComponent } from './quote-timeline/quote-timeline.componen
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
