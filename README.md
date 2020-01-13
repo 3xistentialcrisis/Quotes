@@ -1,4 +1,4 @@
-<img src="..quotes/header.png">
+# <img src="../img/header.png">
 
 # Quotes
 
