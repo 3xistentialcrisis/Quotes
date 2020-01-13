@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(255, 255, 157);
+    font-size: large;
+    text-align: center;
+}
+
+p{
+    font-style: italic;
+    color: red;
+}
+
+#slogan{
+    color: black;
+}

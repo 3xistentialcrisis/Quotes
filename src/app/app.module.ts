@@ -7,6 +7,7 @@ import { QuoteFormComponent } from './quote-form/quote-form.component';
 import { QuoteComponent } from './quote/quote.component';
 import { QuoteVotingComponent } from './quote-voting/quote-voting.component';
 import { QuoteTimelineComponent } from './quote-timeline/quote-timeline.component';
+import {FormsModule} from '@angular/forms';
 import { BestquoteDirective } from './bestquote.directive';
 import { DateCountPipe } from './date-count.pipe';
 
