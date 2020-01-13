@@ -15,6 +15,8 @@ import { QuoteTimelineComponent } from './quote-timeline/quote-timeline.componen
     QuoteComponent,
     QuoteVotingComponent,
     QuoteTimelineComponent
+    BestquoteDirective,
+    DateCountPipe
   ],
   imports: [
     BrowserModule,
